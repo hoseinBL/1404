@@ -36,7 +36,8 @@ h1,p,li a{
 li a{
   text-decoration: none;
 }
-menu li {
+
+menu li{
   float: left;
   margin: 20px;
   border: solid 2px hsl(63, 46%, 69%);
@@ -46,4 +47,14 @@ menu li {
   background-color: black;
   padding: 4px;
   line-height: 50px;
+}
+menu li:hover,li a:hover{
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  transition: all 400ms;
+  background-color: gray;
+  color: black;
+  margin-top: 10px;
 }
