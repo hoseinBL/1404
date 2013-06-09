@@ -30,15 +30,20 @@ nav{
   float: left;
   margin: 0 1px 1px 0;
 }
-h1,p,li{
+h1,p,li a{
   color:rgb(245, 255, 0);
  }
+li a{
+  text-decoration: none;
+}
 menu li {
   float: left;
   margin: 20px;
-  border: solid 1px white;
+  border: solid 2px hsl(63, 46%, 69%);
+  border-radius: 5px;
   display: block;
   font-size: 25px;
   background-color: black;
   padding: 4px;
+  line-height: 50px;
 }
