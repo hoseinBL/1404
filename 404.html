@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>404 Page Not Found.</title>
+  <link rel="stylesheet" type="text/css" href="assets/404.css">
 </head>
 <body>
   <div class="container">
@@ -19,16 +20,19 @@
       </menu>
     </nav>
     <div class="boxs">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <script type="text/javascript">
+        var
+          wn =1280/40,
+          hn =720/40;
+
+        for(y=0;y<hn;y++){
+         document.write('<div>');
+          for(x=0;x<wn;x++){
+           document.write('<div></div>');
+          }
+        document.write('</div>');
+        }
+      </script>
     </div>
   </div>
 </body>

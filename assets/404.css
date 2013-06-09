@@ -1,13 +1,44 @@
 .container {
+  width:1280px;
+  height: 720px;
   position: relative;
+  overflow: hidden;
+  background-color: rgb(190, 199, 199);
 }
 .content{
   position: absolute;
   left: 100px;
-  top: 50px;
+  top: 70px;
 }
 nav{
   position: absolute;
   left: 100px;
   bottom: 100px;
+}
+.boxs > div{
+  width: 110%;
+}
+.boxs > div:after{
+  content: " ";
+  display: table;
+  clear: both;
+}
+.boxs > div > div{
+	width: 39px;
+	height: 39px;
+	background-color: rgb(20, 77, 71);
+  float: left;
+  margin: 0 1px 1px 0;
+}
+h1,p,li{
+  color:rgb(245, 255, 0);
+ }
+menu li {
+  float: left;
+  margin: 20px;
+  border: solid 1px white;
+  display: block;
+  font-size: 25px;
+  background-color: black;
+  padding: 4px;
 }
