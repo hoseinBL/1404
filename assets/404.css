@@ -4,6 +4,8 @@
   position: relative;
   overflow: hidden;
   background-color: rgb(190, 199, 199);
+  margin-left: auto;
+  margin-right: auto;
 }
 .content{
   position: absolute;
