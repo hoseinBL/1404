@@ -10,7 +10,7 @@
 .content{
   position: absolute;
   left: 100px;
-  top: 40px;
+  top: 10px;
 }
 nav{
   position: absolute;
@@ -39,7 +39,9 @@ h1,p,li a{
 li a{
   text-decoration: none;
 }
-
+.content p{
+  margin-left: 25px;
+}
 menu li{
   float: left;
   margin: 20px;
