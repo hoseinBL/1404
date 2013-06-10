@@ -1,0 +1,80 @@
+.container {
+  width:1280px;
+  height: 720px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(190, 199, 199);
+  margin-left: auto;
+  margin-right: auto;
+}
+.content{
+  position: absolute;
+  left: 100px;
+  top: 10px;
+}
+nav{
+  position: absolute;
+  left: 100px;
+  bottom: 70px;
+}
+.boxs > div{
+  width: 110%;
+}
+.boxs > div:after{
+  content: " ";
+  display: table;
+  clear: both;
+}
+.boxs > div > div{
+	width: 39px;
+	height: 39px;
+	background-color: rgb(20, 77, 71);
+  float: left;
+  margin: 0 1px 1px 0;
+}
+h1,p,li a{
+  color:rgb(245, 255, 0);
+  font-family: 'Londrina Solid', cursive;
+ }
+li a{
+  text-decoration: none;
+}
+.content p{
+  margin-left: 25px;
+}
+menu li{
+  float: left;
+  margin: 20px;
+  border: solid 2px hsl(63, 46%, 69%);
+  border-radius: 5px;
+  display: block;
+  font-size: 25px;
+  font-family: 'Londrina Solid', cursive;
+  background-color: black;
+  padding: 4px;
+  line-height: 50px;
+}
+menu li:hover{
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  transition: all 400ms;
+  background-color: gray;
+  color: black;
+  margin-top: 10px;
+}
+menu li:hover a{
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  transition: all 400ms;
+
+  color: black;
+  margin-top: 10px;
+}
+h1{
+  font-size:50px;
+  font-family: 'Londrina Solid', cursive;
+}
