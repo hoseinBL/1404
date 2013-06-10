@@ -10,12 +10,12 @@
 .content{
   position: absolute;
   left: 100px;
-  top: 70px;
+  top: 40px;
 }
 nav{
   position: absolute;
   left: 100px;
-  bottom: 100px;
+  bottom: 70px;
 }
 .boxs > div{
   width: 110%;
@@ -34,6 +34,7 @@ nav{
 }
 h1,p,li a{
   color:rgb(245, 255, 0);
+  font-family: 'Londrina Solid', cursive;
  }
 li a{
   text-decoration: none;
@@ -46,6 +47,7 @@ menu li{
   border-radius: 5px;
   display: block;
   font-size: 25px;
+  font-family: 'Londrina Solid', cursive;
   background-color: black;
   padding: 4px;
   line-height: 50px;
@@ -59,4 +61,8 @@ menu li:hover,li a:hover{
   background-color: gray;
   color: black;
   margin-top: 10px;
+}
+h1{
+  font-size:50px;
+  font-family: 'Londrina Solid', cursive;
 }
